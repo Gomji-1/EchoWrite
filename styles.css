@@ -1,0 +1,59 @@
+/* styles.css */
+
+/* Apply box-sizing globally */
+* {
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  font-family: Arial, sans-serif; /* Font style */
+}
+
+h2 {
+  margin-bottom: 20px; /* Space below the title */
+  font-size: 24px; /* Title size */
+}
+
+form {
+  background: #f9f9f9; /* Light background for the form */
+  padding: 20px; /* Padding around the form */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  max-width: 400px; /* Maximum width of the form */
+  width: 100%; /* Full width */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+textarea {
+  width: 100%; /* Full width */
+  height: 100px; /* Fixed height */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px; /* Padding inside the textarea */
+  margin-bottom: 10px; /* Space below the textarea */
+  resize: none; /* Disable resizing */
+}
+
+button {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding for button */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size for button */
+}
+
+button:hover {
+  background: #e0e0e0; /* Slight background on hover */
+}
+
+p {
+  text-align: center; /* Centered text for messages */
+  margin-top: 20px; /* Space above messages */
+}
