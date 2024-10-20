@@ -1,0 +1,8 @@
+version: 1
+services:
+  - type: web
+    name: my-php-app  # Change this to your desired service name
+    env: php
+    buildCommand: ""  # Leave this empty for PHP
+    startCommand: "php -S 0.0.0.0:10000 -t public"  # Adjust the document root if necessary
+    autoDeploy: true
